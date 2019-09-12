@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>assignment-05</title>
+</head>
+<body>
+    <form action="order">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"pattern=".+@globex.com" size="30" required>
+        <br>
+        <fieldset id="food">
+            Food choice
+            <br>
+            <input type="radio" name="FoodChoice" id="Hamburger">Hamburger
+            <br>
+            <input type="radio" name="FoodChoice" id="Tacos">Tacos
+            <br>
+            <input type="radio" name="FoodChoice" id="=Burritos">Burriots
+            <br>
+            <input type="radio" name="FoodChoice" id="Chicken Sandwich">Chicken sandwich
+            <br>
+            Side
+            <br>
+            <select id="FoodChoice" size="1">
+                <br>
+                <option value="Fries">Fries</option>
+                <option value="onion Rings">Onion Rings</option>
+                <option value="tater tots">Tater Tots</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset id="Drink">
+            Drink
+            <br>
+            <input type="radio" name="Drink" id="Dr. Pepper">Dr. Pepper
+            <br>
+            <input type="radio" name="Drink" id="Pepsi">Pepsi
+            <br>
+            <input type="radio" name="Drink" id="Water">Water
+            <br>
+            <input type="radio" name="Drink" id="Apple Juice">Apple Juice
+            <br> 
+            Drink Size
+            <br>
+            <select id="Drink Size" size="1">
+                <br>
+                <option value="large">Large</option>
+                <option value="Medium">Medium</option>
+                <option value="Small">Small</option>
+            </select>
+            <br>
+        </fieldset>
+        Extra Comments
+        <br>
+        <textarea id="Comments"
+            placeholder="If you have any comments, please enter them here.">
+        </textarea>
+        <br>
+        <input type="radio" name="eat" id="To Go">To Go
+        <input type="radio" name="eat" id="For here">Din In
+        <p><input type="submit" id="submit button" value="Order"></p>
+        <p><input type="reset" id="clear button" value="Clear"></p>
+        
+    </form>
+</body>
+</html>

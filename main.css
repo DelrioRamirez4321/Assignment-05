@@ -1,0 +1,19 @@
+body {
+    font-size: 20px
+}
+label {
+    float:left;
+    width: 5em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+#button {
+    
+}
+textarea {
+    height: 5em;
+    width: 25em;
+}
