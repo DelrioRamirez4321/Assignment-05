@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>assignment-05</title>
 </head>
 <body>
+    <h1>
+        Make Your Order 
+    </h1>
     <form action="order">
         <label for="Name">Name:</label>
         <input type="text" name="Name" id="Name">
@@ -22,9 +26,9 @@
             <br>
             <input type="radio" name="FoodChoice" id="Tacos">Tacos
             <br>
-            <input type="radio" name="FoodChoice" id="=Burritos">Burriots
+            <input type="radio" name="FoodChoice" id="=Burritos">Burritos
             <br>
-            <input type="radio" name="FoodChoice" id="Chicken Sandwich">Chicken sandwich
+            <input type="radio" name="FoodChoice" id="chicken">Chicken
             <br>
             Side
             <br>
@@ -65,9 +69,10 @@
         <br>
         <input type="radio" name="eat" id="To Go">To Go
         <input type="radio" name="eat" id="For here">Din In
-        <p><input type="submit" id="submit button" value="Order"></p>
-        <p><input type="reset" id="clear button" value="Clear"></p>
-        
+        <div>
+            <p><input type="submit" id="SubmitButton" value="Order"></p>
+            <p><input type="reset" id="ClearButton" value="Clear"></p>
+        </div>
     </form>
 </body>
 </html>

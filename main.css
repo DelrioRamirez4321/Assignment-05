@@ -1,17 +1,47 @@
-body {
-    font-size: 20px
+@font-family {
+    font-faily: Acme;
+    src: url ("Acme-Regular.TTF");
+    font-family: Anton;
+    src: url ("Anton-Regular.TTF");
 }
+body {
+    font-size: 20px;
+    color:purple;
+    background-color: yellow;
+}
+h1 {
+    font-family: 'Acme', sans-serif;
+}
+
 label {
     float:left;
     width: 5em;
     text-align: right;
+    font-family: 'Anton', sans-serif;
 }
 input {
     margin-left: 1em;
     margin-bottom: .5em;
+    font-family: 'Anton', sans-serif;
 }
-#button {
-    
+#food, #Drink{
+    font-family: 'Anton', sans-serif;
+    border-color: blue;
+}
+#SubmitButton {
+    background-color: yellow;
+    color:blue;
+    width: 10em;
+    height: 2em;
+}
+#ClearButton {
+    background-color:yellow;
+    color: red;
+    width: 10em;
+    height: 2em;
+}
+div > p {
+    display: inline;
 }
 textarea {
     height: 5em;
